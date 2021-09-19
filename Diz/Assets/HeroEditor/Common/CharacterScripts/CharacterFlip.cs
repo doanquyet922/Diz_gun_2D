@@ -7,15 +7,29 @@ namespace Assets.HeroEditor.Common.CharacterScripts
     /// </summary>
     public class CharacterFlip : MonoBehaviour
     {
+        public FixedJoystick shootingJoytick;
+        public FixedJoystick moveJoytick;
+        
         public void Update()
         {
-	        var scale = transform.localScale;
+            var scale = transform.localScale;
 
-	        scale.x = Mathf.Abs(scale.x);
+            scale.x = Mathf.Abs(scale.x);
 
-	        if (Camera.main.ScreenToWorldPoint(Input.mousePosition).x < transform.position.x) scale.x *= -1;
+            //if (Camera.main.Screeif (shootingJoytick)
 
-			transform.localScale = scale;
+            if (shootingJoytick.Horizontal < 0)
+                {
+                    scale.x *= -1;
+                    transform.localScale = scale;
+                }
+            
+            
+                
+
+            
+            transform.localScale = scale;
+
         }
     }
 }

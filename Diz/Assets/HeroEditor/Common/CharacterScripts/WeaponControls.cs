@@ -17,7 +17,7 @@ namespace Assets.HeroEditor.Common.CharacterScripts
 	    public bool FixHorizontal;
 
         private bool _locked;
-
+        public FixedJoystick shootingJoytick;
         public void Update()
         {
             _locked = !Character.Animator.GetBool("Ready") || Character.Animator.GetInteger("Dead") > 0;
@@ -40,17 +40,52 @@ namespace Assets.HeroEditor.Common.CharacterScripts
                     break;
                 case WeaponType.Firearms1H:
                 case WeaponType.Firearms2H:
-                    Character.Firearm.Fire.FireButtonDown = Input.GetKeyDown(FireButton);
-                    Character.Firearm.Fire.FireButtonPressed = Input.GetKey(FireButton);
-                    Character.Firearm.Fire.FireButtonUp = Input.GetKeyUp(FireButton);
+                    bool FireButtonDown=false;
+                    bool FireButtonPressed=false;
+                    bool FireButtonUp=false;
+                   
+                    
+                        if (shootingJoytick.Direction != Vector2.zero)
+                        {
+                        Vector3 vt = new Vector3(Mathf.Abs(transform.parent.localScale.x), transform.parent.localScale.y, transform.parent.localScale.z);
+                        transform.parent.localScale = vt;
+
+                        FireButtonDown = true;
+                            FireButtonPressed = true;
+                            FireButtonUp = false;
+                        
+                        }
+                        else
+                        {
+                            FireButtonDown = false;
+                            FireButtonPressed = false;
+                            FireButtonUp = true;
+                        }
+                    //    if (FireButtonDown == true &&
+                    //FireButtonPressed == true &&
+                    //FireButtonUp == false){
+
+                        
+                    //}
+                    
+                    Character.Firearm.Fire.FireButtonDown = FireButtonDown;
+                    Character.Firearm.Fire.FireButtonPressed = FireButtonPressed;
+                    Character.Firearm.Fire.FireButtonUp = FireButtonUp;
+
+                    //Debug.Log("FireButtonDown:" + Input.GetKeyDown(FireButton) +
+                    //    "\n\nFireButtonPressed:" + Input.GetKey(FireButton) +
+                    //    "\n\nFireButtonUp:" + Input.GetKeyUp(FireButton));
+                    //Character.Firearm.Fire.FireButtonDown = Input.GetKeyDown(FireButton);
+                    //Character.Firearm.Fire.FireButtonPressed = Input.GetKey(FireButton);
+                    //Character.Firearm.Fire.FireButtonUp = Input.GetKeyUp(FireButton);
                     Character.Firearm.Reload.ReloadButtonDown = Input.GetKeyDown(ReloadButton);
                     break;
 	            case WeaponType.Supplies:
-		            if (Input.GetKeyDown(FireButton))
-		            {
-			            Character.Animator.Play(Time.frameCount % 2 == 0 ? "UseSupply" : "ThrowSupply", 0); // Play animation randomly
-		            }
-		            break;
+                    if (Input.GetKeyDown(FireButton) )
+                    {
+                        Character.Animator.Play(Time.frameCount % 2 == 0 ? "UseSupply" : "ThrowSupply", 0); // Play animation randomly
+                    }
+                    break;
 			}
         }
 
@@ -79,7 +114,15 @@ namespace Assets.HeroEditor.Common.CharacterScripts
                     return;
             }
 
-            RotateArm(arm, weapon, FixHorizontal ? arm.position + 1000 * Vector3.right : Camera.main.ScreenToWorldPoint(Input.mousePosition), -40, 40);
+            //RotateArm(arm, weapon, FixHorizontal ? arm.position + 1000 * Vector3.right : Camera.main.ScreenToWorldPoint(Input.mousePosition), -90, 90);
+            if (shootingJoytick && shootingJoytick.Direction!=Vector2.zero)
+            {
+
+                Vector3 vt = new Vector3(shootingJoytick.Horizontal,shootingJoytick.Vertical,-10);
+                //Debug.Log(shootingJoytick.Horizontal+"-"+ shootingJoytick.Vertical);
+                RotateArm(arm, weapon, FixHorizontal ? arm.position + 1000 * Vector3.right : vt * 10, -90, 90);
+                
+            }
         }
 
         /// <summary>
@@ -92,6 +135,36 @@ namespace Assets.HeroEditor.Common.CharacterScripts
             var angleToTarget = Vector2.SignedAngle(Vector2.right, target);
             var angleToFirearm = Vector2.SignedAngle(weapon.right, arm.transform.right) * Math.Sign(weapon.lossyScale.x);
             var angleFix = Mathf.Asin(weapon.InverseTransformPoint(arm.transform.position).y / target.magnitude) * Mathf.Rad2Deg;
+            var angle = angleToTarget + angleToFirearm + angleFix;
+
+            angleMin += angleToFirearm;
+            angleMax += angleToFirearm;
+
+            var z = arm.transform.localEulerAngles.z;
+
+            if (z > 180) z -= 360;
+
+            if (z + angle > angleMax)
+            {
+                angle = angleMax;
+            }
+            else if (z + angle < angleMin)
+            {
+                angle = angleMin;
+            }
+            else
+            {
+                angle += z;
+            }
+
+            arm.transform.localEulerAngles = new Vector3(0, 0, angle);
+        }
+        public void RotateArmleft(Transform arm, Transform weapon, Vector2 target, float angleMin, float angleMax) // TODO: Very hard to understand logic
+        {
+            target = arm.transform.InverseTransformPoint(target);
+            var angleToTarget = Vector2.SignedAngle(Vector2.left, target);
+            var angleToFirearm = Vector2.SignedAngle(-weapon.right, -arm.transform.right) * Math.Sign(weapon.lossyScale.x);
+            var angleFix = Mathf.Asin(weapon.InverseTransformPoint( arm.transform.position).y / target.magnitude) * Mathf.Rad2Deg;
             var angle = angleToTarget + angleToFirearm + angleFix;
 
             angleMin += angleToFirearm;

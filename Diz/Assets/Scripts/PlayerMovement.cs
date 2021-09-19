@@ -19,7 +19,10 @@ public class PlayerMovement : MonoBehaviour
     //public SpriteRenderer sr;
     public Text playerNameText;
 
-     
+    public Button leftButton;
+    public Button topButton;
+
+    
     private void Awake()
     {
 
@@ -30,11 +33,14 @@ public class PlayerMovement : MonoBehaviour
         //{
         playerCamera.SetActive(true);
         //}
+        
     }
-
+    
     // Update is called once per frame
     void Update()
     {
+        
+        
 
         //if (photonView.isMine)
         {
@@ -51,22 +57,38 @@ public class PlayerMovement : MonoBehaviour
     //[PunRPC]
     void CheckInput()
     {
-        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
-        if (Input.GetButtonDown("Horizontal"))
-        {
-            animator.SetBool("Run", true);
-        }
-        if (Input.GetButtonUp("Horizontal"))
-        {
-            animator.SetBool("Run", false);
-        }
+        Debug.Log(Input.GetAxisRaw("Horizontal"));
+        //horizontalMove = joystick.Horizontal * runSpeed;
+        //if (joystick.Horizontal != 0)
+        //{
+        //    animator.SetBool("Run", true);
+        //}
+        //else
+        //{
+        //    animator.SetBool("Run", false);
+        //}
+        //Debug.Log(joystick.DeadZone);
+        //if (joystick.Vertical > 0 && joystick.Horizontal>-0.2 && joystick.Horizontal<0.2)
+        //{
+        //    jump = true;
+        //    animator.SetBool("Jump", true);
+        //}
+        //horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+        //if (Input.GetButtonDown("Horizontal"))
+        //{
+        //    animator.SetBool("Run", true);
+        //}
+        //if (Input.GetButtonUp("Horizontal"))
+        //{
+        //    animator.SetBool("Run", false);
+        //}
 
 
-        if (Input.GetButtonDown("Jump"))
-        {
-            jump = true;
-            animator.SetBool("Jump", true);
-        }
+        //if (Input.GetButtonDown("Jump") )
+        //{
+        //    jump = true;
+        //    animator.SetBool("Jump", true);
+        //}
         if (Input.GetButtonDown("Crouch"))
         {
             
@@ -91,5 +113,37 @@ public class PlayerMovement : MonoBehaviour
     {
         Debug.Log(Crouch);
         animator.SetBool("Crouch", Crouch);
+    }
+    public void moveRightDown()
+    {
+        horizontalMove= runSpeed;
+        animator.SetBool("Run", true);
+        var scale = transform.localScale;
+        scale.x = Mathf.Abs(scale.x);
+        transform.localScale = scale;
+    }
+    public void moveRightUp()
+    {
+        horizontalMove = 0;
+        animator.SetBool("Run", false);
+    }
+    public void moveLeftDown()
+    {
+        horizontalMove= -runSpeed;
+        animator.SetBool("Run", true);
+        var scale = transform.localScale;
+        scale.x *= -1;
+        transform.localScale= scale;
+        
+    }
+    public void movelefttUp()
+    {
+        horizontalMove = 0;
+        animator.SetBool("Run", false);
+    }
+    public void ClickJump()
+    {
+        jump = true;
+        animator.SetBool("Jump", true);
     }
 }
