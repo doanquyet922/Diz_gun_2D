@@ -57,7 +57,7 @@ public class PlayerMovement : MonoBehaviour
     //[PunRPC]
     void CheckInput()
     {
-        Debug.Log(Input.GetAxisRaw("Horizontal"));
+        //Debug.Log(Input.GetAxisRaw("Horizontal"));
         //horizontalMove = joystick.Horizontal * runSpeed;
         //if (joystick.Horizontal != 0)
         //{

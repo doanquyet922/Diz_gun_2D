@@ -4811,7 +4811,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 39aff146426e4678ba2fb117117f0818, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9894,7 +9893,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 2dc9e334bab549faa157f28ba6136ebf, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11060,7 +11058,7 @@ Transform:
   m_GameObject: {fileID: 1168892513382587}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.0748377, y: 0.95657545, z: 6.272714}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4945144909105713}
   m_Father: {fileID: 0}
@@ -11245,6 +11243,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7655dbdbae96492abedad7bdc555301d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shootingJoytick: {fileID: 0}
+  moveJoytick: {fileID: 0}
 --- !u!114 &114020288770094871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11263,6 +11263,7 @@ MonoBehaviour:
   FireButton: 324
   ReloadButton: 114
   FixHorizontal: 0
+  shootingJoytick: {fileID: 0}
 --- !u!114 &114776506910213261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21131,7 +21132,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 39aff146426e4678ba2fb117117f0818, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -26851,7 +26851,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 2dc9e334bab549faa157f28ba6136ebf, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
