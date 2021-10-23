@@ -45,7 +45,7 @@ namespace Assets.HeroEditor.Common.CharacterScripts
                     bool FireButtonUp=false;
                    
                     
-                        if (shootingJoytick.Direction != Vector2.zero)
+                        if (shootingJoytick && shootingJoytick.Direction != Vector2.zero)
                         {
                         Vector3 vt = new Vector3(Mathf.Abs(transform.parent.localScale.x), transform.parent.localScale.y, transform.parent.localScale.z);
                         transform.parent.localScale = vt;

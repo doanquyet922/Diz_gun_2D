@@ -18,7 +18,7 @@ namespace Assets.HeroEditor.Common.CharacterScripts
 
             //if (Camera.main.Screeif (shootingJoytick)
 
-            if (shootingJoytick.Horizontal < 0)
+            if (shootingJoytick && shootingJoytick.Horizontal < 0)
                 {
                     scale.x *= -1;
                     transform.localScale = scale;
