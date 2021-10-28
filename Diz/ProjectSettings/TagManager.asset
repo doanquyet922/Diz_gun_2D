@@ -10,16 +10,16 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Hero
   - Water
   - UI
   - ParentPlayer
   - BoundMap
   - EnemyCheck
   - Bullet
-  - 
-  - 
-  - 
+  - Grounding
+  - Ceilling
+  - Grounding2
   - 
   - 
   - 

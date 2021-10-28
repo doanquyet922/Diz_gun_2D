@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,7 +13,8 @@ public class SpiderAI : MonoBehaviour
     public float maxMove = 0f;
     public float minMove = 0f;
     public bool firstFaceRight = true;
-
+    //làm phiền
+    public bool bother = false;
     Transform player;
     Rigidbody2D rb;
     HealthEnemy he;

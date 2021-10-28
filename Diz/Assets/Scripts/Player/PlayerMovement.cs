@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -19,12 +20,17 @@ public class PlayerMovement : MonoBehaviour
     //public SpriteRenderer sr;
     public Text playerNameText;
 
-    
+    public int layerPlayer;
+    public int layerGrounding;
+    public int layerCeilling;
 
+    Transform myGround;
     
     private void Awake()
     {
-
+        
+        
+        Physics2D.IgnoreLayerCollision(this.layerPlayer, this.layerCeilling, true);
 
         //cameraFollow.SetTarget(transform);
         //cameraFollow.SetPhotonView(photonView);
@@ -35,15 +41,11 @@ public class PlayerMovement : MonoBehaviour
         //}
         
     }
-    private void Start()
-    {
-        
-    }
-    // Update is called once per frame
+   
     void Update()
     {
-        
-        
+
+        this.GroundFinding();
 
         //if (photonView.isMine)
         {
@@ -51,6 +53,22 @@ public class PlayerMovement : MonoBehaviour
             CheckInput();
         }
     }
+
+    private void GroundFinding()
+    {
+        Vector3 direction = Vector3.down;
+        Vector3 position = this.transform.position;
+        //Physics.Raycast(position,direction,out RaycastHit hit);
+        RaycastHit2D hit = Physics2D.Raycast(position, direction);
+        if (hit.transform == null || hit.transform.gameObject.layer==10) return;
+        Ground ground = hit.transform.GetComponent<Ground>();
+        if (ground == null) return;
+        if (this.myGround == hit.transform && hit.transform.gameObject.layer != layerCeilling) return;
+        
+        ground.Changelayer(this.layerGrounding);
+        this.myGround = hit.transform;
+    }
+
     private void FixedUpdate()
     {
         controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
@@ -133,5 +151,11 @@ public class PlayerMovement : MonoBehaviour
     {
         jump = true;
         animator.SetBool("Jump", true);
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.layer==layerGrounding) {
+            collision.gameObject.layer = layerCeilling;
+        }
     }
 }

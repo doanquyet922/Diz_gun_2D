@@ -43,6 +43,7 @@ public class HealthEnemy : MonoBehaviour
         animator.SetTrigger("died");
         
         collider.isTrigger=true;
+        Destroy(gameObject,1);
     }
    
    public bool IsDied()

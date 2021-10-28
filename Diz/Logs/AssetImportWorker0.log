@@ -15,11 +15,11 @@ C:/Users/Dell/Desktop/Unity/Diz_gun_2D/Diz
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54672
+52728
 Successfully changed project path to: C:/Users/Dell/Desktop/Unity/Diz_gun_2D/Diz
 C:/Users/Dell/Desktop/Unity/Diz_gun_2D/Diz
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 183.16 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 105.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002961 seconds.
+Registered in 0.001559 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 160.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 89.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.504 seconds
+- Completed reload, in  1.646 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016833 seconds.
+Registered in 0.006835 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 91.16 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 93.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.230 seconds
+- Completed reload, in  1.194 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2322 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.0 MB.
+Unloading 2324 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.1 MB.
 System memory in use after: 105.1 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2772.
-Total: 29.633900 ms (FindLiveObjects: 0.707100 ms CreateObjectMapping: 0.504600 ms MarkObjects: 18.940600 ms  DeleteObjects: 9.476200 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2774.
+Total: 2.364900 ms (FindLiveObjects: 0.187300 ms CreateObjectMapping: 0.071700 ms MarkObjects: 1.859700 ms  DeleteObjects: 0.244900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -79,159 +79,143 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefab/Bullet/BulletCircle.prefab
-  artifactKey: Guid(7cfd10afa9204c04ab6ef98292f292db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Bullet/BulletCircle.prefab using Guid(7cfd10afa9204c04ab6ef98292f292db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b9e88f47bd40f7728cea4395cb2b8b') in 0.175301 seconds 
-  Import took 0.196163 seconds .
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(7d399e8ced1763f469b41da1f3d81002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(7d399e8ced1763f469b41da1f3d81002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db834e0eb59e16e65078c7441e57c245') in 0.018377 seconds 
+  Import took 0.025308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 400.724746 seconds.
+  path: Assets/Scenes/Map2.unity
+  artifactKey: Guid(5f2e0c9906344b143a4fdb923a5dabae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map2.unity using Guid(5f2e0c9906344b143a4fdb923a5dabae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8333fec44fb00b5a52facbfe7c9259d5') in 0.004659 seconds 
+  Import took 0.014055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024404 seconds.
+  path: Assets/Scenes/Map2.unity
+  artifactKey: Guid(5f2e0c9906344b143a4fdb923a5dabae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map2.unity using Guid(5f2e0c9906344b143a4fdb923a5dabae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8333fec44fb00b5a52facbfe7c9259d5') in 0.005712 seconds 
+  Import took 0.012131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 201.162945 seconds.
+  path: Assets/Scenes/Map2MonsidonScene.unity
+  artifactKey: Guid(5f2e0c9906344b143a4fdb923a5dabae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map2MonsidonScene.unity using Guid(5f2e0c9906344b143a4fdb923a5dabae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b434e4c67bd99400138c0c0a61ef95f') in 0.004837 seconds 
+  Import took 0.012688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.949011 seconds.
+  path: Assets/platformer maps/forest_map/stn_02.PNG
+  artifactKey: Guid(fb76e90e44b7cd941b97f9319fdfa909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/stn_02.PNG using Guid(fb76e90e44b7cd941b97f9319fdfa909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e2755b7b4e45d64c10fb42a0d664eb') in 0.339781 seconds 
+  Import took 0.348322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.424404 seconds.
+  path: Assets/platformer maps/forest_map/pls_03.png
+  artifactKey: Guid(d052dadc8e4a3744fa83934b9b301873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/pls_03.png using Guid(d052dadc8e4a3744fa83934b9b301873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb8cc5ce5ae45089aef79aeb1f9420c') in 0.039081 seconds 
+  Import took 0.045219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.298199 seconds.
+  path: Assets/platformer maps/forest_map/vt_01.png
+  artifactKey: Guid(1eb4272d39897514896945dc9b954a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/vt_01.png using Guid(1eb4272d39897514896945dc9b954a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6196e5821ec6d22afc785468a9b461e') in 0.020369 seconds 
+  Import took 0.027501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.431849 seconds.
+  path: Assets/platformer maps/forest_map/zd_01.png
+  artifactKey: Guid(51096734f9cf43b49a4c6e45347be8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/zd_01.png using Guid(51096734f9cf43b49a4c6e45347be8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9082cba1d3e33bd3cc12244cf6a325') in 0.024932 seconds 
+  Import took 0.033953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.548221 seconds.
+  path: Assets/platformer maps/forest_map/stv_02.PNG
+  artifactKey: Guid(817b6f2085c619e40a831e37919ee7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/stv_02.PNG using Guid(817b6f2085c619e40a831e37919ee7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6497dd1689ad482baccb4bdf37f538eb') in 0.025866 seconds 
+  Import took 0.032553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.474826 seconds.
+  path: Assets/platformer maps/forest_map/stn_03.PNG
+  artifactKey: Guid(1d9275c411132244ba0e1625693dcc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/stn_03.PNG using Guid(1d9275c411132244ba0e1625693dcc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246743e546e207f45087aedc11115f21') in 0.016670 seconds 
+  Import took 0.023495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.424777 seconds.
+  path: Assets/platformer maps/forest_map/stn_01.PNG
+  artifactKey: Guid(4b70ff64f57c6aa4d8122fcec61998de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/stn_01.PNG using Guid(4b70ff64f57c6aa4d8122fcec61998de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f77ac32684f1ff9317aa7e9ebbd9db') in 0.023631 seconds 
+  Import took 0.030915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.075660 seconds.
+  path: Assets/platformer maps/forest_map/pn_02.png
+  artifactKey: Guid(cd7839ab7090ba74ebafdc9cbeec1091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/pn_02.png using Guid(cd7839ab7090ba74ebafdc9cbeec1091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2b2e61ae52b28e147673de9eb6c5d9') in 0.040441 seconds 
+  Import took 0.046734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.786065 seconds.
+  path: Assets/platformer maps/forest_map/sc_02.PSD
+  artifactKey: Guid(540204f78de092444942ed065a81e317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/sc_02.PSD using Guid(540204f78de092444942ed065a81e317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22885a2b506e4e94f381cabdac67a866') in 0.051209 seconds 
+  Import took 0.060296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.639535 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(7d399e8ced1763f469b41da1f3d81002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(7d399e8ced1763f469b41da1f3d81002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d79e7f872dbf48f52242bd7f0045a6a') in 0.004933 seconds 
+  Import took 0.012042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012104 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(7d399e8ced1763f469b41da1f3d81002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(7d399e8ced1763f469b41da1f3d81002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d79e7f872dbf48f52242bd7f0045a6a') in 0.004163 seconds 
+  Import took 0.010422 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010525 seconds.
+Registered in 0.007990 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.017 seconds
+- Completed reload, in  1.775 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.7 MB.
-System memory in use after: 107.8 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2783.
-Total: 2.153300 ms (FindLiveObjects: 0.190800 ms CreateObjectMapping: 0.076300 ms MarkObjects: 1.773000 ms  DeleteObjects: 0.112000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004441 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.218 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2319 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 107.8 MB.
 System memory in use after: 107.9 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2787.
-Total: 2.383100 ms (FindLiveObjects: 0.209500 ms CreateObjectMapping: 0.077100 ms MarkObjects: 1.981200 ms  DeleteObjects: 0.113600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.046259 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.29 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.164 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.8 MB.
-System memory in use after: 107.9 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2791.
-Total: 3.701400 ms (FindLiveObjects: 0.268300 ms CreateObjectMapping: 0.132600 ms MarkObjects: 3.007100 ms  DeleteObjects: 0.290700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.024257 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.836 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.8 MB.
-System memory in use after: 107.9 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2795.
-Total: 4.617900 ms (FindLiveObjects: 0.327500 ms CreateObjectMapping: 0.136100 ms MarkObjects: 3.970100 ms  DeleteObjects: 0.181900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006654 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.007 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.7 MB.
-System memory in use after: 107.8 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2799.
-Total: 2.617100 ms (FindLiveObjects: 0.213300 ms CreateObjectMapping: 0.087700 ms MarkObjects: 2.177700 ms  DeleteObjects: 0.136700 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2800.
+Total: 2.730500 ms (FindLiveObjects: 0.192600 ms CreateObjectMapping: 0.093800 ms MarkObjects: 2.313000 ms  DeleteObjects: 0.129900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -246,298 +230,634 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1257.633147 seconds.
-  path: Assets/Prefab/Bullet/BulletCircle.prefab
-  artifactKey: Guid(7cfd10afa9204c04ab6ef98292f292db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Bullet/BulletCircle.prefab using Guid(7cfd10afa9204c04ab6ef98292f292db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7cac9ecb1d4c87f1d1d5d7f7ef693a8') in 0.083109 seconds 
-  Import took 0.089689 seconds .
+  Time since last request: 85.083079 seconds.
+  path: Assets/Scenes/Map2MonsidonScene.unity
+  artifactKey: Guid(5f2e0c9906344b143a4fdb923a5dabae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map2MonsidonScene.unity using Guid(5f2e0c9906344b143a4fdb923a5dabae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf51690c534ce86b17a751da994ff22') in 0.031838 seconds 
+  Import took 0.041937 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004402 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.409 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.8 MB.
-System memory in use after: 107.9 MB.
+Received Import Request.
+  Time since last request: 88.778696 seconds.
+  path: Assets/platformer maps/forest_map/LS_02.PSD
+  artifactKey: Guid(5a0450a468fbf324aa92d7ea4f74ffa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/LS_02.PSD using Guid(5a0450a468fbf324aa92d7ea4f74ffa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5b9f4b5710979a2e97b5194fac8918') in 0.069296 seconds 
+  Import took 0.076540 seconds .
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2804.
-Total: 2.398100 ms (FindLiveObjects: 0.206400 ms CreateObjectMapping: 0.106800 ms MarkObjects: 1.957300 ms  DeleteObjects: 0.126100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007176 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.447 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.9 MB.
-System memory in use after: 107.9 MB.
+Received Import Request.
+  Time since last request: 0.012122 seconds.
+  path: Assets/platformer maps/forest_map/LS_02.PSD
+  artifactKey: Guid(5a0450a468fbf324aa92d7ea4f74ffa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/LS_02.PSD using Guid(5a0450a468fbf324aa92d7ea4f74ffa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5b9f4b5710979a2e97b5194fac8918') in 0.041603 seconds 
+  Import took 0.048048 seconds .
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2808.
-Total: 3.844100 ms (FindLiveObjects: 0.239200 ms CreateObjectMapping: 0.105000 ms MarkObjects: 3.290300 ms  DeleteObjects: 0.207400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009753 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.940 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.9 MB.
-System memory in use after: 107.9 MB.
+Received Import Request.
+  Time since last request: 57.936221 seconds.
+  path: Assets/platformer maps/forest_map/der_01.png
+  artifactKey: Guid(bb8c2a8a55606fd4a8c0898c513f9b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/der_01.png using Guid(bb8c2a8a55606fd4a8c0898c513f9b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5d61d30e73c6e66a4c712f194e49ad') in 0.032168 seconds 
+  Import took 0.039831 seconds .
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2812.
-Total: 3.363400 ms (FindLiveObjects: 0.356100 ms CreateObjectMapping: 0.130600 ms MarkObjects: 2.722200 ms  DeleteObjects: 0.152100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007195 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.564 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.9 MB.
-System memory in use after: 107.9 MB.
+Received Import Request.
+  Time since last request: 1.616199 seconds.
+  path: Assets/platformer maps/forest_map/gl_02.png
+  artifactKey: Guid(58004d36a368c83479604945f79385e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/gl_02.png using Guid(58004d36a368c83479604945f79385e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95e2422590c629388463fe8ce8e6339') in 0.024452 seconds 
+  Import took 0.031495 seconds .
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2816.
-Total: 2.374400 ms (FindLiveObjects: 0.212600 ms CreateObjectMapping: 0.089800 ms MarkObjects: 1.944600 ms  DeleteObjects: 0.125800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008601 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.763 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.5 MB.
-System memory in use after: 106.5 MB.
+Received Import Request.
+  Time since last request: 0.010030 seconds.
+  path: Assets/platformer maps/forest_map/gl_02.png
+  artifactKey: Guid(58004d36a368c83479604945f79385e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/gl_02.png using Guid(58004d36a368c83479604945f79385e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95e2422590c629388463fe8ce8e6339') in 0.021008 seconds 
+  Import took 0.026326 seconds .
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2820.
-Total: 8.429100 ms (FindLiveObjects: 0.277900 ms CreateObjectMapping: 0.113200 ms MarkObjects: 7.812200 ms  DeleteObjects: 0.222900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004719 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.318 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.9 MB.
-System memory in use after: 108.0 MB.
+Received Import Request.
+  Time since last request: 1.042842 seconds.
+  path: Assets/platformer maps/forest_map/de_01.png
+  artifactKey: Guid(64a992941567fd142bae5be795b6a49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/de_01.png using Guid(64a992941567fd142bae5be795b6a49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279394c53cf786f00e1b8ca2284102bd') in 0.032138 seconds 
+  Import took 0.044690 seconds .
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2824.
-Total: 3.671000 ms (FindLiveObjects: 0.303100 ms CreateObjectMapping: 0.124000 ms MarkObjects: 2.900100 ms  DeleteObjects: 0.340200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005218 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.909 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.9 MB.
-System memory in use after: 108.0 MB.
+Received Import Request.
+  Time since last request: 1.568719 seconds.
+  path: Assets/platformer maps/forest_map/pn_01.png
+  artifactKey: Guid(7e73972326fcb14449f6b861787cb0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/pn_01.png using Guid(7e73972326fcb14449f6b861787cb0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb1968c650ce3ca5a2557a05cf3cb6f') in 0.043954 seconds 
+  Import took 0.051981 seconds .
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2828.
-Total: 2.526900 ms (FindLiveObjects: 0.228500 ms CreateObjectMapping: 0.100200 ms MarkObjects: 2.026800 ms  DeleteObjects: 0.169700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005704 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.161 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.9 MB.
-System memory in use after: 108.0 MB.
+Received Import Request.
+  Time since last request: 1079.688897 seconds.
+  path: Assets/platformer maps/forest_map/pls_02.PNG
+  artifactKey: Guid(e7b2ac9277f5dc84a839571c2760a5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/pls_02.PNG using Guid(e7b2ac9277f5dc84a839571c2760a5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44254b2de88c70f80be4d4dacdbf68a') in 0.033274 seconds 
+  Import took 0.047524 seconds .
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2832.
-Total: 2.759200 ms (FindLiveObjects: 0.261800 ms CreateObjectMapping: 0.100100 ms MarkObjects: 2.245000 ms  DeleteObjects: 0.150900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006815 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.883 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2317 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.9 MB.
-System memory in use after: 108.0 MB.
+Received Import Request.
+  Time since last request: 1.055363 seconds.
+  path: Assets/platformer maps/forest_map/mn_06.PNG
+  artifactKey: Guid(e2402449273d70a4eb4787d4d91aac6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/mn_06.PNG using Guid(e2402449273d70a4eb4787d4d91aac6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e347d8097f50f44a547cf82d2d29c528') in 0.036885 seconds 
+  Import took 0.045007 seconds .
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2836.
-Total: 4.946600 ms (FindLiveObjects: 0.343500 ms CreateObjectMapping: 1.252900 ms MarkObjects: 3.182800 ms  DeleteObjects: 0.165200 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 2.046610 seconds.
+  path: Assets/platformer maps/forest_map/pls_01.png
+  artifactKey: Guid(ce6b2dca69e02b84a8436374ce4a273b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/pls_01.png using Guid(ce6b2dca69e02b84a8436374ce4a273b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffc618c99a7c1b614d29767b843e093') in 0.040061 seconds 
+  Import took 0.051260 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 108.241717 seconds.
+  path: Assets/platformer maps/forest_map/de_01.png
+  artifactKey: Guid(64a992941567fd142bae5be795b6a49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/de_01.png using Guid(64a992941567fd142bae5be795b6a49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8542d1ba834ca0f49c0195fdce31e668') in 0.021046 seconds 
+  Import took 0.029253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.514465 seconds.
+  path: Assets/platformer maps/forest_map/pls_01.png
+  artifactKey: Guid(ce6b2dca69e02b84a8436374ce4a273b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/pls_01.png using Guid(ce6b2dca69e02b84a8436374ce4a273b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3da202a95bc0a17b8db3de952bfd7f') in 0.044808 seconds 
+  Import took 0.053560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.507314 seconds.
+  path: Assets/platformer maps/forest_map/pls_02.PNG
+  artifactKey: Guid(e7b2ac9277f5dc84a839571c2760a5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/pls_02.PNG using Guid(e7b2ac9277f5dc84a839571c2760a5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6651f6bca1a4e2633af2867e4512931b') in 0.030534 seconds 
+  Import took 0.037355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.997095 seconds.
+  path: Assets/platformer maps/forest_map/pls_03.png
+  artifactKey: Guid(d052dadc8e4a3744fa83934b9b301873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/pls_03.png using Guid(d052dadc8e4a3744fa83934b9b301873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01058358ac5e9560704962e537030928') in 0.034386 seconds 
+  Import took 0.040044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.404937 seconds.
+  path: Assets/Scenes/Map2MonsidonScene.unity
+  artifactKey: Guid(5f2e0c9906344b143a4fdb923a5dabae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map2MonsidonScene.unity using Guid(5f2e0c9906344b143a4fdb923a5dabae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1e6821a53a9fc1210047536bdbd489') in 0.004597 seconds 
+  Import took 0.013120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.507159 seconds.
+  path: Assets/platformer maps/forest_map/stn_01.PNG
+  artifactKey: Guid(4b70ff64f57c6aa4d8122fcec61998de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/stn_01.PNG using Guid(4b70ff64f57c6aa4d8122fcec61998de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b808633624e70972e6c1e9943fb4c4ae') in 0.021720 seconds 
+  Import took 0.029969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.650187 seconds.
+  path: Assets/platformer maps/forest_map/stn_02.PNG
+  artifactKey: Guid(fb76e90e44b7cd941b97f9319fdfa909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/stn_02.PNG using Guid(fb76e90e44b7cd941b97f9319fdfa909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec41c1b7c7c97a986e34000024597aa') in 0.017742 seconds 
+  Import took 0.026164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001441 seconds.
+  path: Assets/platformer maps/forest_map/stn_02.PNG
+  artifactKey: Guid(fb76e90e44b7cd941b97f9319fdfa909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/stn_02.PNG using Guid(fb76e90e44b7cd941b97f9319fdfa909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec41c1b7c7c97a986e34000024597aa') in 0.014290 seconds 
+  Import took 0.023154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.311197 seconds.
+  path: Assets/platformer maps/forest_map/stn_03.PNG
+  artifactKey: Guid(1d9275c411132244ba0e1625693dcc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/stn_03.PNG using Guid(1d9275c411132244ba0e1625693dcc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91f8441062b0aa6ef9b853cc64e54aa') in 0.014632 seconds 
+  Import took 0.020221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002926 seconds.
+  path: Assets/platformer maps/forest_map/stn_03.PNG
+  artifactKey: Guid(1d9275c411132244ba0e1625693dcc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/stn_03.PNG using Guid(1d9275c411132244ba0e1625693dcc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91f8441062b0aa6ef9b853cc64e54aa') in 0.023556 seconds 
+  Import took 0.032043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.566459 seconds.
+  path: Assets/platformer maps/forest_map/stn_01.PNG
+  artifactKey: Guid(4b70ff64f57c6aa4d8122fcec61998de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/stn_01.PNG using Guid(4b70ff64f57c6aa4d8122fcec61998de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18295cba5b35b86dfc01ff61d54e95f') in 0.019538 seconds 
+  Import took 0.029292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.094322 seconds.
+  path: Assets/platformer maps/forest_map/stn_02.PNG
+  artifactKey: Guid(fb76e90e44b7cd941b97f9319fdfa909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/stn_02.PNG using Guid(fb76e90e44b7cd941b97f9319fdfa909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac6e6e7c6dd0b6ce70db7f93a9a346b') in 0.015561 seconds 
+  Import took 0.025308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.647259 seconds.
+  path: Assets/platformer maps/forest_map/stn_01.PNG
+  artifactKey: Guid(4b70ff64f57c6aa4d8122fcec61998de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/stn_01.PNG using Guid(4b70ff64f57c6aa4d8122fcec61998de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c973e07631b2c142c82b1267ededcff') in 0.018347 seconds 
+  Import took 0.024672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.827669 seconds.
+  path: Assets/platformer maps/forest_map/gr_04.PNG
+  artifactKey: Guid(a66905d0b08d6074f8359b6c61ebc737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/gr_04.PNG using Guid(a66905d0b08d6074f8359b6c61ebc737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0024e3bacadd8a0721f49667465cbd') in 0.029291 seconds 
+  Import took 0.035193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.966239 seconds.
+  path: Assets/platformer maps/forest_map/gr_03_s.PNG
+  artifactKey: Guid(5609cf659daa0c44988706ae9577b9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/gr_03_s.PNG using Guid(5609cf659daa0c44988706ae9577b9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3a300384f82a993ed55cdd4f67eb83') in 0.015754 seconds 
+  Import took 0.025105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.088617 seconds.
+  path: Assets/platformer maps/forest_map/gr_03.PNG
+  artifactKey: Guid(dc9897f8eb6e0e5448d217f3e0ab908d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/gr_03.PNG using Guid(dc9897f8eb6e0e5448d217f3e0ab908d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798e512265a0fde53faa7f1430818571') in 0.022514 seconds 
+  Import took 0.032371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.347562 seconds.
+  path: Assets/platformer maps/forest_map/gr_05.png
+  artifactKey: Guid(1b7b03b50ba050f4791404827098ff0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/gr_05.png using Guid(1b7b03b50ba050f4791404827098ff0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf1086b62cb4791f8630240e602f0cc') in 0.018990 seconds 
+  Import took 0.025259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.590091 seconds.
+  path: Assets/platformer maps/forest_map/ks_01_a.PNG
+  artifactKey: Guid(1728b5f7a0ba95b4db0c5cbf987516ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/ks_01_a.PNG using Guid(1728b5f7a0ba95b4db0c5cbf987516ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76568a1f66eb6d45efa5dca87c17fa1f') in 0.022696 seconds 
+  Import took 0.030840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.585654 seconds.
+  path: Assets/platformer maps/forest_map/ks_01_b.PNG
+  artifactKey: Guid(3a2ece5b7fbe7934485a5a44bbcd4974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/ks_01_b.PNG using Guid(3a2ece5b7fbe7934485a5a44bbcd4974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c49f03a0793de21da752a6d0bb44be') in 0.023186 seconds 
+  Import took 0.033630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.388784 seconds.
+  path: Assets/platformer maps/forest_map/ks_02_a.PNG
+  artifactKey: Guid(7b40688ec1d10db4fad5f004e22fe89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/ks_02_a.PNG using Guid(7b40688ec1d10db4fad5f004e22fe89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ad24a6441792f124dabc09ce1b747a') in 0.024078 seconds 
+  Import took 0.033069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.175493 seconds.
+  path: Assets/platformer maps/forest_map/gr_02.png
+  artifactKey: Guid(9da560e8d83f9d24f92004b709265880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/gr_02.png using Guid(9da560e8d83f9d24f92004b709265880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d29161dd5b5982694da3857f4ddf68') in 0.021064 seconds 
+  Import took 0.026516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.519545 seconds.
+  path: Assets/platformer maps/forest_map/gr_01.PNG
+  artifactKey: Guid(53d7bcd9d641d8d408e7acf0f55d124f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/gr_01.PNG using Guid(53d7bcd9d641d8d408e7acf0f55d124f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84aa5ed0991f15d22d8150c6375c673') in 0.024909 seconds 
+  Import took 0.030207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002152 seconds.
+  path: Assets/platformer maps/forest_map/gr_01.PNG
+  artifactKey: Guid(53d7bcd9d641d8d408e7acf0f55d124f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/gr_01.PNG using Guid(53d7bcd9d641d8d408e7acf0f55d124f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84aa5ed0991f15d22d8150c6375c673') in 0.016522 seconds 
+  Import took 0.023320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.190422 seconds.
+  path: Assets/platformer maps/forest_map/der_01.png
+  artifactKey: Guid(bb8c2a8a55606fd4a8c0898c513f9b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/der_01.png using Guid(bb8c2a8a55606fd4a8c0898c513f9b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781f437512fd36b3aeea68a97c3f7752') in 0.020557 seconds 
+  Import took 0.030333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.857038 seconds.
+  path: Assets/platformer maps/forest_map/de_02.PNG
+  artifactKey: Guid(49ad429de34b7a44db81f345dad25692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/de_02.PNG using Guid(49ad429de34b7a44db81f345dad25692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d20b6b912f1b379254d9d5d2e33361') in 0.024070 seconds 
+  Import took 0.036046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.262785 seconds.
+  path: Assets/platformer maps/forest_map/der_01.png
+  artifactKey: Guid(bb8c2a8a55606fd4a8c0898c513f9b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/der_01.png using Guid(bb8c2a8a55606fd4a8c0898c513f9b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e87e0f540af98d1f8104f203f943da') in 0.025359 seconds 
+  Import took 0.031800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.778005 seconds.
+  path: Assets/platformer maps/forest_map/gr_01.PNG
+  artifactKey: Guid(53d7bcd9d641d8d408e7acf0f55d124f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/gr_01.PNG using Guid(53d7bcd9d641d8d408e7acf0f55d124f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581dd1013ef415db1cbefbe9e74fc614') in 0.014211 seconds 
+  Import took 0.022925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.966959 seconds.
+  path: Assets/platformer maps/forest_map/gr_01.PNG
+  artifactKey: Guid(53d7bcd9d641d8d408e7acf0f55d124f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/gr_01.PNG using Guid(53d7bcd9d641d8d408e7acf0f55d124f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c31ce9d7472489c4adbea4c43246c48') in 0.013720 seconds 
+  Import took 0.021297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.401239 seconds.
+  path: Assets/platformer maps/forest_map/stn_01.PNG
+  artifactKey: Guid(4b70ff64f57c6aa4d8122fcec61998de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/stn_01.PNG using Guid(4b70ff64f57c6aa4d8122fcec61998de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c32ea683ad679f8864c701df3ebe71') in 0.024123 seconds 
+  Import took 0.034440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.966843 seconds.
+  path: Assets/platformer maps/forest_map/stn_01.PNG
+  artifactKey: Guid(4b70ff64f57c6aa4d8122fcec61998de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/stn_01.PNG using Guid(4b70ff64f57c6aa4d8122fcec61998de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a292db376ae642db5314978cd43e5e2') in 0.021958 seconds 
+  Import took 0.029598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.140366 seconds.
+  path: Assets/platformer maps/forest_map/zd_01.png
+  artifactKey: Guid(51096734f9cf43b49a4c6e45347be8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/zd_01.png using Guid(51096734f9cf43b49a4c6e45347be8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1909a2b4a00949be9c4a37a549279a36') in 0.024865 seconds 
+  Import took 0.033821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.281944 seconds.
+  path: Assets/platformer maps/forest_map/vt_02.PNG
+  artifactKey: Guid(770b974a584503a4181b2707fe1f6139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/vt_02.PNG using Guid(770b974a584503a4181b2707fe1f6139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475c444d249b8b6899d7cad79eec9489') in 0.020103 seconds 
+  Import took 0.029410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002765 seconds.
+  path: Assets/platformer maps/forest_map/vt_02.PNG
+  artifactKey: Guid(770b974a584503a4181b2707fe1f6139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/vt_02.PNG using Guid(770b974a584503a4181b2707fe1f6139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475c444d249b8b6899d7cad79eec9489') in 0.017375 seconds 
+  Import took 0.022657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.895223 seconds.
+  path: Assets/platformer maps/forest_map/vt_01.png
+  artifactKey: Guid(1eb4272d39897514896945dc9b954a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/vt_01.png using Guid(1eb4272d39897514896945dc9b954a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1957033e86339d82c9fd807d95e2e1aa') in 0.023659 seconds 
+  Import took 0.033700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001275 seconds.
+  path: Assets/platformer maps/forest_map/vt_01.png
+  artifactKey: Guid(1eb4272d39897514896945dc9b954a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/vt_01.png using Guid(1eb4272d39897514896945dc9b954a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1957033e86339d82c9fd807d95e2e1aa') in 0.019929 seconds 
+  Import took 0.026697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.702584 seconds.
+  path: Assets/platformer maps/forest_map/stv_02.PNG
+  artifactKey: Guid(817b6f2085c619e40a831e37919ee7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/stv_02.PNG using Guid(817b6f2085c619e40a831e37919ee7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315ab46931da3eb6e762a09c233b9db9') in 0.025795 seconds 
+  Import took 0.034703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.619136 seconds.
+  path: Assets/platformer maps/forest_map/stv_01.png
+  artifactKey: Guid(2e4d378dba2a896469675cccb8b8cbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/stv_01.png using Guid(2e4d378dba2a896469675cccb8b8cbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7596a54d9dc5e81445e95fb4debbfb') in 0.031748 seconds 
+  Import took 0.039667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000948 seconds.
+  path: Assets/platformer maps/forest_map/stv_01.png
+  artifactKey: Guid(2e4d378dba2a896469675cccb8b8cbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/stv_01.png using Guid(2e4d378dba2a896469675cccb8b8cbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7596a54d9dc5e81445e95fb4debbfb') in 0.027906 seconds 
+  Import took 0.035743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.771984 seconds.
+  path: Assets/platformer maps/forest_map/pn_02.png
+  artifactKey: Guid(cd7839ab7090ba74ebafdc9cbeec1091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/pn_02.png using Guid(cd7839ab7090ba74ebafdc9cbeec1091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e938f61ccf79804ae329fe6616707a27') in 0.027262 seconds 
+  Import took 0.035258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.657094 seconds.
+  path: Assets/platformer maps/forest_map/pn_01.png
+  artifactKey: Guid(7e73972326fcb14449f6b861787cb0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/pn_01.png using Guid(7e73972326fcb14449f6b861787cb0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d397bfc823da4545435c3ebd0bca18') in 0.029228 seconds 
+  Import took 0.039694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 673.114616 seconds.
+  path: Assets/platformer maps/forest_map/der_02.PNG
+  artifactKey: Guid(18dc5ba41fc00ee4bb6e1077165fda6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/der_02.PNG using Guid(18dc5ba41fc00ee4bb6e1077165fda6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6d5c73ad598b0ef0e5221c91b018ec') in 0.029532 seconds 
+  Import took 0.039520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/platformer maps/forest_map/LS_02.PSD
+  artifactKey: Guid(5a0450a468fbf324aa92d7ea4f74ffa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/LS_02.PSD using Guid(5a0450a468fbf324aa92d7ea4f74ffa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b3c6d1f619295dad815dc9ca4fbb71') in 0.057439 seconds 
+  Import took 0.062466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/platformer maps/forest_map/der_03.png
+  artifactKey: Guid(c08c470a40a860547ade26d43d4960ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/der_03.png using Guid(c08c470a40a860547ade26d43d4960ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65fe5b2bac41c7f0d91420a5e61a4715') in 0.040302 seconds 
+  Import took 0.047058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/platformer maps/forest_map/mn_02.PNG
+  artifactKey: Guid(68e33404e981bbb40ac377a9a3327628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/mn_02.PNG using Guid(68e33404e981bbb40ac377a9a3327628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7901c9752b8bd79f091396a227e342') in 0.048267 seconds 
+  Import took 0.052963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/platformer maps/forest_map/mn_01.PNG
+  artifactKey: Guid(ed2b822dcef34c541bf3ddc1815d0a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/mn_01.PNG using Guid(ed2b822dcef34c541bf3ddc1815d0a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663712e58302339ce8983569f27efb30') in 0.035684 seconds 
+  Import took 0.043897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/platformer maps/forest_map/gl_01.PNG
+  artifactKey: Guid(5b9fb4f7ffcabb74488a76d3e3618dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/gl_01.PNG using Guid(5b9fb4f7ffcabb74488a76d3e3618dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae44c11c56486980b3136709076ebc5') in 0.015843 seconds 
+  Import took 0.024708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/platformer maps/forest_map/mn_05.PNG
+  artifactKey: Guid(22a82ad5d27272143aed727032b5309f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/mn_05.PNG using Guid(22a82ad5d27272143aed727032b5309f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999ef10dd8b798f3d42e84ff7f6abef2') in 0.033959 seconds 
+  Import took 0.041482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000523 seconds.
+  path: Assets/platformer maps/forest_map/gl_02.png
+  artifactKey: Guid(58004d36a368c83479604945f79385e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/gl_02.png using Guid(58004d36a368c83479604945f79385e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b429c100fbb8d841ce58255728b834db') in 0.020868 seconds 
+  Import took 0.027236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/platformer maps/forest_map/mn_03.PNG
+  artifactKey: Guid(6d4b88ea372a537498460ac1462719e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/mn_03.PNG using Guid(6d4b88ea372a537498460ac1462719e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052f052726594f29614b21191db082e1') in 0.041029 seconds 
+  Import took 0.046989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/platformer maps/forest_map/mn_04.PNG
+  artifactKey: Guid(a34da5010c43f574996ce280ff8b9c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/mn_04.PNG using Guid(a34da5010c43f574996ce280ff8b9c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '859986de0028be8cb68bc404685cb17c') in 0.030884 seconds 
+  Import took 0.036769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/platformer maps/forest_map/mn_06.PNG
+  artifactKey: Guid(e2402449273d70a4eb4787d4d91aac6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/mn_06.PNG using Guid(e2402449273d70a4eb4787d4d91aac6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674b13cff4bfe5c76ffec1d58f187647') in 0.034983 seconds 
+  Import took 0.041296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.735624 seconds.
+  path: Assets/platformer maps/forest_map/stn_02.PNG
+  artifactKey: Guid(fb76e90e44b7cd941b97f9319fdfa909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/stn_02.PNG using Guid(fb76e90e44b7cd941b97f9319fdfa909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313642433667b64238fc74cf077f62ef') in 0.023208 seconds 
+  Import took 0.032801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/platformer maps/forest_map/stn_03.PNG
+  artifactKey: Guid(1d9275c411132244ba0e1625693dcc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/stn_03.PNG using Guid(1d9275c411132244ba0e1625693dcc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd736b573304adc38a09743454d8ff1d2') in 0.027457 seconds 
+  Import took 0.035084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.777426 seconds.
+  path: Assets/platformer maps/forest_map/gr_05.png
+  artifactKey: Guid(1b7b03b50ba050f4791404827098ff0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/gr_05.png using Guid(1b7b03b50ba050f4791404827098ff0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3125aed6a3114b9b4ff77ae37a7b9c') in 0.015300 seconds 
+  Import took 0.021300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004742 seconds.
+  path: Assets/platformer maps/forest_map/gr_05.png
+  artifactKey: Guid(1b7b03b50ba050f4791404827098ff0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/gr_05.png using Guid(1b7b03b50ba050f4791404827098ff0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3125aed6a3114b9b4ff77ae37a7b9c') in 0.011876 seconds 
+  Import took 0.017594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.269003 seconds.
+  path: Assets/platformer maps/forest_map/gr_05.png
+  artifactKey: Guid(1b7b03b50ba050f4791404827098ff0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/gr_05.png using Guid(1b7b03b50ba050f4791404827098ff0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86156fce402f05c6a3fa4a988a5d5861') in 0.013781 seconds 
+  Import took 0.019933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.154599 seconds.
+  path: Assets/platformer maps/forest_map/gr_05.png
+  artifactKey: Guid(1b7b03b50ba050f4791404827098ff0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/gr_05.png using Guid(1b7b03b50ba050f4791404827098ff0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5e81f9344bf278c77f386e941cb3e1') in 0.013140 seconds 
+  Import took 0.019376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009600 seconds.
+  path: Assets/platformer maps/forest_map/gr_05.png
+  artifactKey: Guid(1b7b03b50ba050f4791404827098ff0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/gr_05.png using Guid(1b7b03b50ba050f4791404827098ff0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5e81f9344bf278c77f386e941cb3e1') in 0.011266 seconds 
+  Import took 0.019090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.211292 seconds.
+  path: Assets/platformer maps/forest_map/ks_01_a.PNG
+  artifactKey: Guid(1728b5f7a0ba95b4db0c5cbf987516ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/ks_01_a.PNG using Guid(1728b5f7a0ba95b4db0c5cbf987516ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12dbec863f5f70896aca46742c491560') in 0.024134 seconds 
+  Import took 0.031435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.098078 seconds.
+  path: Assets/platformer maps/forest_map/ks_01_a.PNG
+  artifactKey: Guid(1728b5f7a0ba95b4db0c5cbf987516ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/ks_01_a.PNG using Guid(1728b5f7a0ba95b4db0c5cbf987516ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ccfd2df077fa0c4031e2ef48f58851') in 0.027973 seconds 
+  Import took 0.033422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.591694 seconds.
+  path: Assets/platformer maps/forest_map/ks_01_a.PNG
+  artifactKey: Guid(1728b5f7a0ba95b4db0c5cbf987516ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/ks_01_a.PNG using Guid(1728b5f7a0ba95b4db0c5cbf987516ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8080320668b1fd95d97ac0bd095c670c') in 0.025074 seconds 
+  Import took 0.029549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001708 seconds.
+  path: Assets/platformer maps/forest_map/ks_01_a.PNG
+  artifactKey: Guid(1728b5f7a0ba95b4db0c5cbf987516ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/ks_01_a.PNG using Guid(1728b5f7a0ba95b4db0c5cbf987516ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8080320668b1fd95d97ac0bd095c670c') in 0.017690 seconds 
+  Import took 0.025178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.793417 seconds.
+  path: Assets/platformer maps/forest_map/gl_01.PNG
+  artifactKey: Guid(5b9fb4f7ffcabb74488a76d3e3618dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/gl_01.PNG using Guid(5b9fb4f7ffcabb74488a76d3e3618dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3795a7ae27cce4ff09ecc72ba9a839cf') in 0.014710 seconds 
+  Import took 0.019104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005316 seconds.
+  path: Assets/platformer maps/forest_map/gl_01.PNG
+  artifactKey: Guid(5b9fb4f7ffcabb74488a76d3e3618dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/gl_01.PNG using Guid(5b9fb4f7ffcabb74488a76d3e3618dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3795a7ae27cce4ff09ecc72ba9a839cf') in 0.017763 seconds 
+  Import took 0.024016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/platformer maps/forest_map/gl_02.png
+  artifactKey: Guid(58004d36a368c83479604945f79385e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/gl_02.png using Guid(58004d36a368c83479604945f79385e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49bc3c239db7732b87107f41935b616') in 0.020131 seconds 
+  Import took 0.029327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.396708 seconds.
+  path: Assets/platformer maps/forest_map/gl_01.PNG
+  artifactKey: Guid(5b9fb4f7ffcabb74488a76d3e3618dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/gl_01.PNG using Guid(5b9fb4f7ffcabb74488a76d3e3618dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c644003ffd4ce532b5c7d077e32a7293') in 0.014260 seconds 
+  Import took 0.021010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001586 seconds.
+  path: Assets/platformer maps/forest_map/gl_01.PNG
+  artifactKey: Guid(5b9fb4f7ffcabb74488a76d3e3618dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/gl_01.PNG using Guid(5b9fb4f7ffcabb74488a76d3e3618dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c644003ffd4ce532b5c7d077e32a7293') in 0.013450 seconds 
+  Import took 0.020124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/platformer maps/forest_map/gl_02.png
+  artifactKey: Guid(58004d36a368c83479604945f79385e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/platformer maps/forest_map/gl_02.png using Guid(58004d36a368c83479604945f79385e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc38a49b89d5abffacf1a151c90b30a5') in 0.013936 seconds 
+  Import took 0.019938 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

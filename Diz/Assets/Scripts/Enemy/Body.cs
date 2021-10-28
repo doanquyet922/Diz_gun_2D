@@ -22,6 +22,7 @@ public class Body : MonoBehaviour
 
             if (collision.collider.name.Contains(b.NameBullet))
             {
+                
                 he.TakeDamage(b.Dame);
             }
         }
