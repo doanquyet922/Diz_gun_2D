@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class EnemyAi : MonoBehaviour
 {
-     GameObject player;
-    public float agroRange = 0f;
+    public bool shoot = true;
+    public int dameAttackIfShootFalse = 20;
+     Transform player;
+    public float agroRange = 1f;
+    public float agroMouthAndPlayer = 1f;
+    
     HealthEnemy he;
 
     public float minMove;
@@ -21,36 +25,50 @@ public class EnemyAi : MonoBehaviour
     public GameObject bulletPrefab;
     public float fireRate = 0.2f;
     float timeUnitFire;
-
+    Animator animator;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         he = GetComponent<HealthEnemy>();
-        player = GameManager.ins.parentPlayer;
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        player = FindObjectOfType<HealthPlayer>().gameObject.transform;
         if (onMove == true)
-        {
+        {  
             Move();
+            
+            animator.SetBool("run", true);
         }
         else
         {
+            animator.SetBool("run",false);
+
             rb.velocity = Vector2.zero;
         }
-        float distToPlayer = Vector2.Distance(transform.position, player.transform.position);
-
-        if (distToPlayer < agroRange && he.IsDied() == false)
+        float distToPlayer = Vector2.Distance(transform.position, player.position);
+        float chechlechdocao = player.position.y - transform.position.y;
+        if (distToPlayer < agroRange && he.IsDied()==false)
         {
-           
-            
+
+
             if (timeUnitFire < Time.time)
             {
-                Shoot();
+                if (shoot == true)
+                {
+                    Shoot();
+                }
+                else
+                {
+                    Attack();
+                }
+
             }
+            else onMove = true;
 
             
         }
@@ -63,7 +81,9 @@ public class EnemyAi : MonoBehaviour
     {
         if (faceRight == true)
         {
+
             rb.velocity = Vector2.right * moveSpeed;
+            
             if (transform.localScale.x > 0)
             {
                 faceRight = false;
@@ -74,7 +94,7 @@ public class EnemyAi : MonoBehaviour
         }
         else
         {
-            rb.velocity = Vector2.right * -moveSpeed;
+            rb.velocity = Vector2.right * - moveSpeed;
             transform.localScale = new Vector2(Mathf.Abs(transform.localScale.x), transform.localScale.y);
         }
         if (transform.position.x > maxMove)
@@ -89,8 +109,70 @@ public class EnemyAi : MonoBehaviour
     private void Shoot()
     {
         timeUnitFire = Time.time + fireRate;
+        if (transform.GetChild(0).position.x < player.position.x)
+        {
+            faceRight = true;
+            if (transform.localScale.x > 0)
+            {
+                transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
+            }
+
+            
+
+        }
+        else
+        {
+            faceRight = false;
+            transform.localScale = new Vector2(Mathf.Abs(transform.localScale.x), transform.localScale.y);
+
+        }
         GameObject bullet= Instantiate(bulletPrefab, this.FirePoint.position, this.FirePoint.rotation);
         Destroy(bullet,2);
         
+    }
+    void Attack()
+    {
+        Vector3 presentPos = gameObject.transform.position;
+        onMove = false;
+        timeUnitFire = Time.time + fireRate;
+        if (transform.GetChild(0).position.x < player.position.x)
+        {
+            faceRight = true;
+            if (transform.localScale.x > 0)
+            {
+                
+                transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
+            }
+
+            gameObject.transform.position = (player.position);
+            gameObject.transform.position = new Vector3(gameObject.transform.position.x - agroMouthAndPlayer, presentPos.y, gameObject.transform.position.z);
+
+        }
+        else
+        {
+            faceRight = false;
+            transform.localScale = new Vector2(Mathf.Abs(transform.localScale.x), transform.localScale.y);
+
+            gameObject.transform.position = (player.position);
+            gameObject.transform.position = new Vector3(gameObject.transform.position.x + agroMouthAndPlayer, presentPos.y, gameObject.transform.position.z);
+            
+        }
+        animator.SetTrigger("attack");
+        
+        HealthPlayer healthPlayer = player.GetComponent<HealthPlayer>();
+        healthPlayer.TakeDamage(dameAttackIfShootFalse);
+        StartCoroutine(BackPos(presentPos));
+    }
+    IEnumerator BackPos(Vector3 Pos)
+    {
+        yield return new WaitForSeconds(0.5f);
+        transform.position = Pos;
+    }
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawWireSphere(transform.position, agroRange);
+        Gizmos.DrawWireSphere(transform.position, agroMouthAndPlayer);
+        
+
     }
 }

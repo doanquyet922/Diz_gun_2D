@@ -22,7 +22,7 @@ public class Body : MonoBehaviour
 
             if (collision.collider.name.Contains(b.NameBullet))
             {
-                
+                Debug.Log("Body - "+b.NameBullet + "-" + b.Dame);
                 he.TakeDamage(b.Dame);
             }
         }

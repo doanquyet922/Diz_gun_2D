@@ -20,7 +20,7 @@ public class GolemAI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GameManager.ins.parentPlayer.transform;
+        
         rb = GetComponent<Rigidbody2D>();
         he = gameObject.GetComponentInParent<HealthEnemy>();
         sh = gameObject.GetComponentInChildren<Shooting>();
@@ -31,7 +31,7 @@ public class GolemAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        player = FindObjectOfType<HealthPlayer>().gameObject.transform;
         float distToPlayer = Vector2.Distance(transform.position, player.position);
         
         if (distToPlayer < agroRange && distToPlayer> 1.6f && he.IsDied()==false )

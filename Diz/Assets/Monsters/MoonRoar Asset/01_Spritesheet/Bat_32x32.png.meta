@@ -1,7 +1,160 @@
 fileFormatVersion: 2
 guid: 7a6dcbac8ce37554a8ab7b23659f13a4
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 9008829954659863423
+    second: Bat_32x32_0
+  - first:
+      213: -1021054238673896129
+    second: Bat_32x32_1
+  - first:
+      213: 2585113214134846714
+    second: Bat_32x32_2
+  - first:
+      213: 6102361852505698428
+    second: Bat_32x32_3
+  - first:
+      213: 5235589150817924652
+    second: Bat_32x32_4
+  - first:
+      213: 3486147846903109444
+    second: Bat_32x32_5
+  - first:
+      213: -1073434359715575175
+    second: Bat_32x32_6
+  - first:
+      213: 1289960957373836784
+    second: Bat_32x32_7
+  - first:
+      213: -7054545498245405915
+    second: Bat_32x32_8
+  - first:
+      213: 6228413218115034200
+    second: Bat_32x32_9
+  - first:
+      213: -8314060567072557965
+    second: Bat_32x32_10
+  - first:
+      213: -1454470072061719170
+    second: Bat_32x32_11
+  - first:
+      213: 8898698538931018618
+    second: Bat_32x32_12
+  - first:
+      213: -2902208752778449713
+    second: Bat_32x32_13
+  - first:
+      213: -1969797490829985921
+    second: Bat_32x32_14
+  - first:
+      213: 6331870801450661655
+    second: Bat_32x32_15
+  - first:
+      213: 7734504918093179961
+    second: Bat_32x32_16
+  - first:
+      213: 7086403653012299317
+    second: Bat_32x32_17
+  - first:
+      213: 8058034647236644357
+    second: Bat_32x32_18
+  - first:
+      213: 7350000922690483950
+    second: Bat_32x32_19
+  - first:
+      213: 6511462806707495015
+    second: Bat_32x32_20
+  - first:
+      213: 7443699304247159940
+    second: Bat_32x32_21
+  - first:
+      213: 5204664819720007858
+    second: Bat_32x32_22
+  - first:
+      213: 7144872977837138122
+    second: Bat_32x32_23
+  - first:
+      213: -1120727081399523124
+    second: Bat_32x32_24
+  - first:
+      213: 1902802429364588873
+    second: Bat_32x32_25
+  - first:
+      213: 4755461931977812901
+    second: Bat_32x32_26
+  - first:
+      213: -8718057991654104878
+    second: Bat_32x32_27
+  - first:
+      213: 8883811672775597761
+    second: Bat_32x32_28
+  - first:
+      213: -2290718674695991730
+    second: Bat_32x32_29
+  - first:
+      213: 1725839467639372770
+    second: Bat_32x32_30
+  - first:
+      213: -8100012851173629869
+    second: Bat_32x32_31
+  - first:
+      213: -5577139051736555855
+    second: Bat_32x32_32
+  - first:
+      213: 5830235915204824101
+    second: Bat_32x32_33
+  - first:
+      213: 3852345963627241577
+    second: Bat_32x32_34
+  - first:
+      213: 5685342729636066421
+    second: Bat_32x32_35
+  - first:
+      213: 4050480895325992844
+    second: Bat_32x32_36
+  - first:
+      213: -6096959325259114182
+    second: Bat_32x32_37
+  - first:
+      213: 6546303073376243357
+    second: Bat_32x32_38
+  - first:
+      213: -112049315912254904
+    second: Bat_32x32_39
+  - first:
+      213: 1753375269276659046
+    second: Bat_32x32_40
+  - first:
+      213: -1125211397195851154
+    second: Bat_32x32_41
+  - first:
+      213: 4438473583500551343
+    second: Bat_32x32_42
+  - first:
+      213: 6169718202394000585
+    second: Bat_32x32_43
+  - first:
+      213: -1201107544029972329
+    second: Bat_32x32_44
+  - first:
+      213: -5986810879941602588
+    second: Bat_32x32_45
+  - first:
+      213: 3824788246102223981
+    second: Bat_32x32_46
+  - first:
+      213: 1245745460484060048
+    second: Bat_32x32_47
+  - first:
+      213: -5270282232112995081
+    second: Bat_32x32_48
+  - first:
+      213: 7255002729182600523
+    second: Bat_32x32_49
+  - first:
+      213: -39919819447552200
+    second: Bat_32x32_50
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +194,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +228,1104 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Bat_32x32_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b4669ec1bc50d70800000000000000
+      internalID: 9008829954659863423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 169
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d7f67649c74d1f0800000000000000
+      internalID: -1021054238673896129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_2
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 169
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af40da095ca20e320800000000000000
+      internalID: 2585113214134846714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_3
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 168
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c703f7de5c1ffa450800000000000000
+      internalID: 6102361852505698428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_4
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 168
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c263464e79c88a840800000000000000
+      internalID: 5235589150817924652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44717211ff8416030800000000000000
+      internalID: 3486147846903109444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_6
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 169
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a447b13256a11f0800000000000000
+      internalID: -1073434359715575175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_7
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 169
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fde36ef7acd6e110800000000000000
+      internalID: 1289960957373836784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 169
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5236045fe38391e90800000000000000
+      internalID: -7054545498245405915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 169
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c181482d4cf6650800000000000000
+      internalID: 6228413218115034200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_10
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 137
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374be8ac6f58e9c80800000000000000
+      internalID: -8314060567072557965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_11
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 136
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d0352fc2fa0dbe0800000000000000
+      internalID: -1454470072061719170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_12
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 136
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b55408c278e7b70800000000000000
+      internalID: 8898698538931018618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_13
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 136
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc6c92148849b7d0800000000000000
+      internalID: -2902208752778449713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_14
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 136
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f777f975e9fd9a4e0800000000000000
+      internalID: -1969797490829985921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_15
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 136
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717722c32f25fd750800000000000000
+      internalID: 6331870801450661655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_16
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 136
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ca47c6e3b765b60800000000000000
+      internalID: 7734504918093179961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_17
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 103
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e14d8b396f75260800000000000000
+      internalID: 7086403653012299317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_18
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 103
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e845081d3e3df60800000000000000
+      internalID: 8058034647236644357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_19
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 103
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee672cfa5e2700660800000000000000
+      internalID: 7350000922690483950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_20
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 103
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760e7f96cec5d5a50800000000000000
+      internalID: 6511462806707495015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_21
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 105
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c697c24155d4760800000000000000
+      internalID: 7443699304247159940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_22
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 105
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0326af31faa3840800000000000000
+      internalID: 5204664819720007858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_23
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 107
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac025414e10b72360800000000000000
+      internalID: 7144872977837138122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_24
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 104
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8650748a06270f0800000000000000
+      internalID: -1120727081399523124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_25
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 104
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941d6006abc186a10800000000000000
+      internalID: 1902802429364588873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_26
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 102
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab2e6e7e6bcef140800000000000000
+      internalID: 4755461931977812901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_27
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 104
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0a334627c330780800000000000000
+      internalID: -8718057991654104878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_28
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 106
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce124fd5a3a94b70800000000000000
+      internalID: 8883811672775597761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_29
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 74
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e446a808bb530e0800000000000000
+      internalID: -2290718674695991730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_30
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 76
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb7ef71ad963f710800000000000000
+      internalID: 1725839467639372770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_31
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 73
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35062b14a39f69f80800000000000000
+      internalID: -8100012851173629869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_32
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 76
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be9846d4950a92b0800000000000000
+      internalID: -5577139051736555855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_33
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 44
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c028acca829e050800000000000000
+      internalID: 5830235915204824101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_34
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 44
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96069e94e38467530800000000000000
+      internalID: 3852345963627241577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_35
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 44
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574be42271566ee40800000000000000
+      internalID: 5685342729636066421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_36
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 44
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c877967f9e2363830800000000000000
+      internalID: 4050480895325992844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_37
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39dce7fbcf336ba0800000000000000
+      internalID: -6096959325259114182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_38
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 40
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e83a026f329da50800000000000000
+      internalID: 6546303073376243357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_39
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 41
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a79b7adbbe17ef0800000000000000
+      internalID: -112049315912254904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_40
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 40
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66da033848d355810800000000000000
+      internalID: 1753375269276659046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_41
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 11
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a9be422327260f0800000000000000
+      internalID: -1125211397195851154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_42
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 8
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa461894530a89d30800000000000000
+      internalID: 4438473583500551343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_43
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 9
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccb4f9340e3f9550800000000000000
+      internalID: 6169718202394000585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_44
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 9
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7983d0d6d0fc45fe0800000000000000
+      internalID: -1201107544029972329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_45
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 11
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e213a369339aeca0800000000000000
+      internalID: -5986810879941602588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_46
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 8
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c230e25a0641530800000000000000
+      internalID: 3824788246102223981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_47
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 7
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09335b465e6c94110800000000000000
+      internalID: 1245745460484060048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_48
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 7
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f42ad8ab323cd6b0800000000000000
+      internalID: -5270282232112995081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_49
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 7
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d1b652b82fea460800000000000000
+      internalID: 7255002729182600523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_32x32_50
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 7
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837b45eb22d227ff0800000000000000
+      internalID: -39919819447552200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

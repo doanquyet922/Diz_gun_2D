@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 876c98d1664bf55429ba150a2522d232
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 517071360457219997
+    second: Lizard_05_Spit-Attack-Engage_0
+  - first:
+      213: 4673062118375294350
+    second: Lizard_05_Spit-Attack-Engage_1
+  - first:
+      213: 133371877399812128
+    second: Lizard_05_Spit-Attack-Engage_2
+  - first:
+      213: 5352855636165524288
+    second: Lizard_05_Spit-Attack-Engage_3
+  - first:
+      213: -3293381554337259492
+    second: Lizard_05_Spit-Attack-Engage_4
+  - first:
+      213: -934347530743962973
+    second: Lizard_05_Spit-Attack-Engage_5
+  - first:
+      213: -3080370290350424853
+    second: Lizard_05_Spit-Attack-Engage_6
+  - first:
+      213: 8708443884233830385
+    second: Lizard_05_Spit-Attack-Engage_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +65,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +99,201 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Lizard_05_Spit-Attack-Engage_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 87
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f949ba9a10d2700800000000000000
+      internalID: 517071360457219997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lizard_05_Spit-Attack-Engage_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 86
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85081bdc3d0ad040800000000000000
+      internalID: 4673062118375294350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lizard_05_Spit-Attack-Engage_2
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 84
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028517f0405d9d100800000000000000
+      internalID: 133371877399812128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lizard_05_Spit-Attack-Engage_3
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 0
+        width: 83
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bf79727d9294a40800000000000000
+      internalID: 5352855636165524288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lizard_05_Spit-Attack-Engage_4
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 0
+        width: 78
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1067e7ecee8b42d0800000000000000
+      internalID: -3293381554337259492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lizard_05_Spit-Attack-Engage_5
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 0
+        width: 75
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a22e350fd78803f0800000000000000
+      internalID: -934347530743962973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lizard_05_Spit-Attack-Engage_6
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 0
+        width: 74
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: becfefa9a835045d0800000000000000
+      internalID: -3080370290350424853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lizard_05_Spit-Attack-Engage_7
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 0
+        width: 76
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff2e2ac29b9ad870800000000000000
+      internalID: 8708443884233830385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

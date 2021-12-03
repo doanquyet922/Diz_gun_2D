@@ -38,12 +38,29 @@ public class HealthEnemy : MonoBehaviour
     }
     void Die()
     {
-        m_died = true;
-        animator.SetBool("isWakeup", false);
-        animator.SetTrigger("died");
+        if (m_died == false)
+        {
+            
+            
+            int rand = Random.Range(0,4);
+            if (rand==0)
+            {
+                GameObject Item_FullHealing = (GameObject)Resources.Load("Prefab/Item/Item_FullHealing");
+                Instantiate(Item_FullHealing,transform.position,Quaternion.identity);
+            }
+            else if (rand == 1)
+            {
+                GameObject Item_HalfHealing = (GameObject)Resources.Load("Prefab/Item/Item_HalfHealing");
+                Instantiate(Item_HalfHealing, transform.position, Quaternion.identity);
+            }
+            m_died = true;
+            animator.SetBool("isWakeup", false);
+            animator.SetTrigger("died");
+
+            collider.isTrigger = true;
+            Destroy(gameObject, 1);
+        }
         
-        collider.isTrigger=true;
-        Destroy(gameObject,1);
     }
    
    public bool IsDied()

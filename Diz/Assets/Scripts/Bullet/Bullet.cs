@@ -13,7 +13,7 @@ public class Bullet : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        player = GameManager.ins.parentPlayer;
+        player = FindObjectOfType<HealthPlayer>().gameObject;
         Transform childPlayer = player.transform.GetChild(0);
         moveDirection = (childPlayer.position - transform.position).normalized * moveSpeed;
         rb.velocity = new Vector2(moveDirection.x,moveDirection.y);

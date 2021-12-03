@@ -15,7 +15,7 @@ namespace Assets.HeroEditor.Common.CharacterScripts
 
 		public void Start()
         {
-            Destroy(gameObject, 5);
+            Destroy(gameObject, 0.7f);
         }
 
 	    public void Update()

@@ -39,7 +39,8 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
     private Camera cam;
 
     private Vector2 input = Vector2.zero;
-
+    public bool pointertUp = true;
+    public bool pointertDown = false;
     protected virtual void Start()
     {
         HandleRange = handleRange;
@@ -59,11 +60,14 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
 
     public virtual void OnPointerDown(PointerEventData eventData)
     {
+        pointertDown = true;
+        pointertUp = false;
         OnDrag(eventData);
     }
 
     public void OnDrag(PointerEventData eventData)
     {
+        
         cam = null;
         if (canvas.renderMode == RenderMode.ScreenSpaceCamera)
             cam = canvas.worldCamera;
@@ -131,6 +135,8 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
 
     public virtual void OnPointerUp(PointerEventData eventData)
     {
+        pointertDown = false;
+        pointertUp = true;
         input = Vector2.zero;
         handle.anchoredPosition = Vector2.zero;
     }

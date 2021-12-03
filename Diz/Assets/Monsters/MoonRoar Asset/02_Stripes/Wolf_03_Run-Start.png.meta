@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 0fe971689e72ab94f98312be66837d59
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3465621525854286194
+    second: Wolf_03_Run-Start_0
+  - first:
+      213: -6578844566060952083
+    second: Wolf_03_Run-Start_1
+  - first:
+      213: -5891303904492968236
+    second: Wolf_03_Run-Start_2
+  - first:
+      213: 808412409714276800
+    second: Wolf_03_Run-Start_3
+  - first:
+      213: 1655881464887863971
+    second: Wolf_03_Run-Start_4
+  - first:
+      213: 3755485297024365657
+    second: Wolf_03_Run-Start_5
+  - first:
+      213: 6961952527820524364
+    second: Wolf_03_Run-Start_6
+  - first:
+      213: 8280643996369588115
+    second: Wolf_03_Run-Start_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +65,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +99,201 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Wolf_03_Run-Start_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 59
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e02897593a7efc0800000000000000
+      internalID: -3465621525854286194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_03_Run-Start_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 58
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de59d6f29bf33b4a0800000000000000
+      internalID: -6578844566060952083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_03_Run-Start_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 58
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d623d4ff42ed3ea0800000000000000
+      internalID: -5891303904492968236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_03_Run-Start_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 61
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c97901bdce083b00800000000000000
+      internalID: 808412409714276800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_03_Run-Start_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 4
+        width: 62
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa6bc84b6fdaf610800000000000000
+      internalID: 1655881464887863971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_03_Run-Start_5
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 4
+        width: 61
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954f650faf92e1430800000000000000
+      internalID: 3755485297024365657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_03_Run-Start_6
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 4
+        width: 60
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b00e320f2dd9060800000000000000
+      internalID: 6961952527820524364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf_03_Run-Start_7
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 5
+        width: 56
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f841b87d1cae270800000000000000
+      internalID: 8280643996369588115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

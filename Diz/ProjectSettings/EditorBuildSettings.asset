@@ -6,18 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/GameScene.unity
-    guid: 7d399e8ced1763f469b41da1f3d81002
+    path: Assets/Scenes/StartScene.unity
+    guid: 112a6729fb495a34bbe3d6ed776fa944
   - enabled: 1
     path: Assets/Scenes/MenuScenes.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/PlayerEditer.unity
-    guid: 35e26341e4d959944ae3edab0d28c0a2
+    path: Assets/Scenes/RoomGame.unity
+    guid: 6022bf6bf8a042e46a46b9403eddd60f
   - enabled: 1
-    path: Assets/Scenes/MilitaryHeroesEditer.unity
-    guid: 94b667b6b6032894fa28d91a2dc3d3aa
+    path: Assets/Scenes/ChangePlayerScene.unity
+    guid: 40374d5b9c5c2704eb393872d2544ba5
   - enabled: 1
-    path: Assets/Scenes/CyberpunkHeroesEditer.unity
-    guid: 07e542dbaa64ca24d92d7b3418088b96
+    path: Assets/Scenes/GameScene.unity
+    guid: 7d399e8ced1763f469b41da1f3d81002
+  - enabled: 1
+    path: Assets/Scenes/Map2MonsidonScene.unity
+    guid: 5f2e0c9906344b143a4fdb923a5dabae
+  - enabled: 1
+    path: Assets/Scenes/Map3Disidon.unity
+    guid: e95c67d1102490c42a936a29ab20f6f0
+  - enabled: 1
+    path: Assets/Scenes/Map3Disidon2.unity
+    guid: 62e17c09f4989954a9ad2580e2455c14
   m_configObjects: {}

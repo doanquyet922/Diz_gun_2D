@@ -22,6 +22,7 @@ public class Head : MonoBehaviour
 
             if (collision.collider.name.Contains(b.NameBullet))
             {
+                Debug.Log("Head - " + b.NameBullet+"-"+b.Dame);
                 he.TakeDamage(b.Dame*2);
             }
         }

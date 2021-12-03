@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Bullet
   - LazeBullet
+  - DeadZone
+  - BoundMap
+  - Enemy
   layers:
   - Default
   - TransparentFX

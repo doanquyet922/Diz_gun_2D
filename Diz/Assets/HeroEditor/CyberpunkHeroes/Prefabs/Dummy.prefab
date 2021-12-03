@@ -7940,8 +7940,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7655dbdbae96492abedad7bdc555301d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shootingJoytick: {fileID: 0}
-  moveJoytick: {fileID: 0}
 --- !u!114 &114417266871501402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7960,7 +7958,6 @@ MonoBehaviour:
   FireButton: 324
   ReloadButton: 114
   FixHorizontal: 0
-  shootingJoytick: {fileID: 0}
 --- !u!114 &114680778405795772
 MonoBehaviour:
   m_ObjectHideFlags: 0
