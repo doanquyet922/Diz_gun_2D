@@ -28,8 +28,7 @@ public class MenuManager : Photon.MonoBehaviour
     public GameObject editNamepanel;
     private void Awake()
     {
-        
-        PhotonNetwork.ConnectUsingSettings(versionName);
+       
         data = FindObjectOfType<Data>();
         DontDestroyOnLoad(data.gameObject);
     }
@@ -37,12 +36,13 @@ public class MenuManager : Photon.MonoBehaviour
     private void Start()
     {
         nameText.text = Prefs.name;
-        string name = Prefs.player.Substring(0,7);
-        
-        player = (GameObject)LoadPrefabFromFile(name);
-        if (player && playerPoint) {
+        string name = Prefs.player.Substring(0, 7);
 
-           GameObject p= Instantiate(player, playerPoint.position, playerPoint.rotation);
+        player = (GameObject)LoadPrefabFromFile(name);
+        if (player && playerPoint)
+        {
+
+            GameObject p = Instantiate(player, playerPoint.position, playerPoint.rotation);
             p.transform.localScale = playerPoint.localScale;
         }
     }
@@ -57,60 +57,60 @@ public class MenuManager : Photon.MonoBehaviour
         fullHealText.text = "x" + fullHeal.ToString();
         BoomText.text = "x" + booms.ToString();
     }
-    public void OnConnectedToMaster()
-    {
-        PhotonNetwork.JoinLobby(TypedLobby.Default);
-        Debug.Log("Connected");
-    }
-    public void CreateGame()
-    {
-        if (createGameInput.text.Length <= 0)
-        {
-            Debug.Log("Chưa đặt tên phòng");
-        }
-        else
-        {
-            MapCanvas.SetActive(true);
-        }
+    //public void OnConnectedToMaster()
+    //{
+    //    PhotonNetwork.JoinLobby(TypedLobby.Default);
+    //    Debug.Log("Connected");
+    //}
+    //public void CreateGame()
+    //{
+    //    if (createGameInput.text.Length <= 0)
+    //    {
+    //        Debug.Log("Chưa đặt tên phòng");
+    //    }
+    //    else
+    //    {
+    //        MapCanvas.SetActive(true);
+    //    }
 
         
         
-    }
-    public void ClickMap1()
-    {
-        PhotonNetwork.CreateRoom(createGameInput.text, new RoomOptions() { maxPlayers = 2 }, null);
-        PhotonNetwork.playerName = nameText.text;
-        data.SetCreateRoom(true);
-        data.SetNameSceneMap("GameScene");
-    }
-    public void ClickMap2()
-    {
-        PhotonNetwork.CreateRoom(createGameInput.text, new RoomOptions() { maxPlayers = 2 }, null);
-        PhotonNetwork.playerName = nameText.text;
-        data.SetCreateRoom(true);
-        data.SetNameSceneMap("Map2MonsidonScene");
-    }
-    public void JoinGame()
-    {   
-        if (PhotonNetwork.JoinRoom(joinGameInput.text))
-        {
-            PhotonNetwork.playerName = nameText.text;
+    //}
+    //public void ClickMap1()
+    //{
+    //    PhotonNetwork.CreateRoom(createGameInput.text, new RoomOptions() { maxPlayers = 2 }, null);
+    //    PhotonNetwork.playerName = nameText.text;
+    //    data.SetCreateRoom(true);
+    //    data.SetNameSceneMap("GameScene");
+    //}
+    //public void ClickMap2()
+    //{
+    //    PhotonNetwork.CreateRoom(createGameInput.text, new RoomOptions() { maxPlayers = 2 }, null);
+    //    PhotonNetwork.playerName = nameText.text;
+    //    data.SetCreateRoom(true);
+    //    data.SetNameSceneMap("Map2MonsidonScene");
+    //}
+    //public void JoinGame()
+    //{   
+    //    if (PhotonNetwork.JoinRoom(joinGameInput.text))
+    //    {
+    //        PhotonNetwork.playerName = nameText.text;
 
-            data.SetCreateRoom(false);
-        }
-        else
-        {
-            Debug.Log("Not name rôm");
-        }
+    //        data.SetCreateRoom(false);
+    //    }
+    //    else
+    //    {
+    //        Debug.Log("Not name rôm");
+    //    }
         
         
 
-    }
+    //}
 
-    public void OnJoinedRoom()
-    {
-        PhotonNetwork.LoadLevel("RoomGame");
-    }
+    //public void OnJoinedRoom()
+    //{
+    //    PhotonNetwork.LoadLevel("RoomGame");
+    //}
 
     
     public void PlayGame()

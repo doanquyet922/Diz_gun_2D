@@ -175,7 +175,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 1522317088952379215}
   runSpeed: 25
-  animator: {fileID: 4925743240174252264}
   playerCamera: {fileID: 1522317088621909417}
   playerNameText: {fileID: 0}
   layerPlayer: 6
@@ -676,10 +675,5 @@ PrefabInstance:
 --- !u!4 &4979034557166790890 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4730942062920463, guid: 123c4b61e7be45849902fdb7303f8a88, type: 3}
-  m_PrefabInstance: {fileID: 4974748369740049381}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &4925743240174252264 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 95167309350509325, guid: 123c4b61e7be45849902fdb7303f8a88, type: 3}
   m_PrefabInstance: {fileID: 4974748369740049381}
   m_PrefabAsset: {fileID: 0}

@@ -31,12 +31,12 @@ public static class Prefs
     {
         set
         {
-            if (PlayerPrefs.GetInt("Coin",0) != value)
+            if (PlayerPrefs.GetInt("Coin",1000) != value)
             {
                 PlayerPrefs.SetInt("Coin", value);
             }
         }
-        get => PlayerPrefs.GetInt("Coin", 0);
+        get => PlayerPrefs.GetInt("Coin", 1000);
     }
     public static void bestTime(string map,double time)
     {

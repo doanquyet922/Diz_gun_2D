@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MenuScenes.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/RoomGame.unity
     guid: 6022bf6bf8a042e46a46b9403eddd60f
   - enabled: 1
@@ -29,4 +29,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Map3Disidon2.unity
     guid: 62e17c09f4989954a9ad2580e2455c14
-  m_configObjects: {}
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: cc0ee4e050032fa41aa4b439917d9706, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 378b664038b20714983df0e29b545890, type: 2}

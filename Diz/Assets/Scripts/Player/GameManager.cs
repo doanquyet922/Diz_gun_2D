@@ -70,18 +70,18 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
         StartCoroutine(CountingTime());
         m_FullHeal = Prefs.fullHeal;
         m_HalfHeal = Prefs.halfHeal;
         FullHealingText.text = m_FullHeal + "x";
         HalfHealingText.text = m_HalfHeal + "x";
         parentPlayer = (GameObject)LoadPrefabFromFile(Prefs.player);
-        avatar.sprite = Resources.Load<Sprite>("Avatar/"+ Prefs.player);
+        avatar.sprite = Resources.Load<Sprite>("Avatar/" + Prefs.player);
         playerMovement = parentPlayer.GetComponent<PlayerMovement>();
         if (parentPlayer)
         {
-            parentPlayer= Instantiate(parentPlayer, startPoint.position, Quaternion.identity);
+            parentPlayer = Instantiate(parentPlayer, startPoint.position, Quaternion.identity);
             //PhotonNetwork.Instantiate(parentPlayer.name, startPoint.position, Quaternion.identity, 0);
 
 
@@ -174,8 +174,8 @@ public class GameManager : MonoBehaviour
         }
         return loadedObject;
     }
-    
-   
+
+
     public GameObject GetPlayerPrefab()
     {
         return parentPlayer;
@@ -239,10 +239,9 @@ public class GameManager : MonoBehaviour
     public void Next()
     {
         Time.timeScale = 1f;
-        if(SceneManager.sceneCount> (SceneManager.GetActiveScene().buildIndex + 1))
+        if (SceneManager.sceneCountInBuildSettings > (SceneManager.GetActiveScene().buildIndex + 1))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-
         }
         else
         {

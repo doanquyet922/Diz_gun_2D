@@ -145,31 +145,35 @@ public class PlayerMovement : Photon.MonoBehaviour
             {
                 crouch = false;
             }
-            horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
-            if (horizontalMove == 0)
+            if (Input.GetAxisRaw("Horizontal") != 0)
             {
-                if (animator)
-                    animator.SetBool("Run", false);
-            }
-            if (Input.GetAxisRaw("Horizontal") > 0)
-            {
-                if (animator)
-                    animator.SetBool("Run", true);
-                var scale = transform.localScale;
-                scale.x = Mathf.Abs(scale.x);
-                transform.localScale = scale;
-            }
-            if (Input.GetAxisRaw("Horizontal") < 0)
-            {
-                if (animator)
-                    animator.SetBool("Run", true);
-                var scale = transform.localScale;
-                if (scale.x >= 0)
-                    scale.x *= -1;
-                transform.localScale = scale;
+                horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+                if (horizontalMove == 0)
+                {
+                    if (animator)
+                        animator.SetBool("Run", false);
+                }
+                if (Input.GetAxisRaw("Horizontal") > 0)
+                {
+                    if (animator)
+                        animator.SetBool("Run", true);
+                    var scale = transform.localScale;
+                    scale.x = Mathf.Abs(scale.x);
+                    transform.localScale = scale;
+                }
+                if (Input.GetAxisRaw("Horizontal") < 0)
+                {
+                    if (animator)
+                        animator.SetBool("Run", true);
+                    var scale = transform.localScale;
+                    if (scale.x >= 0)
+                        scale.x *= -1;
+                    transform.localScale = scale;
+                }
+
             }
 
-
+            
             if (Input.GetButtonDown("Jump"))
             {
                 jump = true;

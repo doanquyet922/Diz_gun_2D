@@ -24823,6 +24823,22 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 2021940099}
+    - target: {fileID: 2092908698081147211, guid: b8bbf7de23439c441ad8a308566e702e, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 480
+      objectReference: {fileID: 0}
+    - target: {fileID: 2092908698081147211, guid: b8bbf7de23439c441ad8a308566e702e, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 189.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2092908698081147211, guid: b8bbf7de23439c441ad8a308566e702e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 260.16003
+      objectReference: {fileID: 0}
+    - target: {fileID: 2092908698081147211, guid: b8bbf7de23439c441ad8a308566e702e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -102.57791
+      objectReference: {fileID: 0}
     - target: {fileID: 2092908698085488732, guid: b8bbf7de23439c441ad8a308566e702e, type: 3}
       propertyPath: m_Name
       value: GameManager

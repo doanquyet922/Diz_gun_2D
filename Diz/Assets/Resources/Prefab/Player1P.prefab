@@ -207,7 +207,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 918130672018982426}
   runSpeed: 25
-  animator: {fileID: 1004233253927808405}
   playerCamera: {fileID: 918130672492000508}
   playerNameText: {fileID: 0}
   layerPlayer: 6
@@ -226,7 +225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 335d25252e4a67f469e86385b7b41f82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 200
+  m_JumpForce: 700
   m_CrouchSpeed: 0.4
   m_MovementSmoothing: 0.05
   m_AirControl: 1
@@ -688,10 +687,5 @@ PrefabInstance:
 --- !u!4 &913408561467127191 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4730942062920463, guid: 7377576fa661da8408f1b15d0bb5a877, type: 3}
-  m_PrefabInstance: {fileID: 918130670626240152}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1004233253927808405 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 95167309350509325, guid: 7377576fa661da8408f1b15d0bb5a877, type: 3}
   m_PrefabInstance: {fileID: 918130670626240152}
   m_PrefabAsset: {fileID: 0}
